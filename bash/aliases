@@ -1,0 +1,12 @@
+#top aliases
+alias tu='top -o cpu' 	# cpu
+alias tm='top -o vsize' # memory
+
+#ls
+alias ll='ls -lah'
+
+#reloading aliases
+alias reload="source ~/bin/dotfiles/bash/aliases"
+
+#add new alias and reload aliases
+alias ea="mate -w ~/bin/dotfiles/bash/aliases && reload"

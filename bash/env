@@ -1,0 +1,4 @@
+export EDITOR="mate -w"
+export PATH=/usr/local/sbin:/usr/local/mysql/bin:/usr/local/share/scala/scala-2.7.5.final/bin:$PATH:~/bin
+export PATH=/opt/local/bin:/opt/local/sbin:$PATH
+export PATH=/Applications/MAMP/bin/php5/bin:$PATH
