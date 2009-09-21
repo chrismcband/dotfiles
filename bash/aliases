@@ -10,3 +10,7 @@ alias reload="source ~/bin/dotfiles/bash/aliases"
 
 #add new alias and reload aliases
 alias ea="mate -w ~/bin/dotfiles/bash/aliases && reload"
+
+#git aliases
+alias gco='git checkout'
+alias gcm='git commit -v'
