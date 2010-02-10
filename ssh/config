@@ -11,7 +11,7 @@ Host opencoder
   User chris
 
 Host devserver
-  HostName devserver
+  HostName devserver.sliderstudio.co.uk
   User youcanplan
 
 Host webdev
