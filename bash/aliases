@@ -16,4 +16,4 @@ alias gco='git checkout'
 alias gcm='git commit -v'
 
 #phpframe alias
-alias phpframe='php /Applications/MAMP/bin/php5/lib/php/data/PHPFrame/CLI_Tool/public/index.php'
+alias phpframe='php /Applications/MAMP/bin/php5.3/lib/php/data/PHPFrame/CLI_Tool/public/index.php'
