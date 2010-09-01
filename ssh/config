@@ -2,6 +2,10 @@ Host stickyworld
   HostName stickyworld.com
   User stickyworld
 
+Host slider
+  HostName stickyworld.com
+  User slider
+
 Host youcanplan
   HostName youcanplan.co.uk
   User youcanplan
@@ -11,9 +15,6 @@ Host opencoder
   User chris
 
 Host devserver
-  HostName devserver.sliderstudio.co.uk
-  User youcanplan
+  HostName devserver.stickyworld.com
+  User chris
 
-Host webdev
-  HostName webdev.sliderstudio.co.uk
-  User webdev
