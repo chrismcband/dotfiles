@@ -18,3 +18,15 @@ Host devserver
   HostName devserver.stickyworld.com
   User chris
 
+Host cruisecontrol
+  HostName devserver.stickyworld.com
+  User cruisecontrol
+
+Host teamcity
+  HostName devserver.stickyworld.com
+  User teamcity
+
+Host tcas
+  HostName tcas.treethorpe.com
+  User ubuntu
+  IdentityFile ~/.ssh/treethorpe.pem
