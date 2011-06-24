@@ -26,6 +26,10 @@ Host teamcity
   HostName devserver.stickyworld.com
   User teamcity
 
+Host youtrack
+  HostName devserver.stickyworld.com
+  User youtrack
+
 Host tcas
   HostName tcas.treethorpe.com
   User ubuntu
