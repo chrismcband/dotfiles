@@ -15,8 +15,5 @@ alias ea="mate -w ~/bin/dotfiles/bash/aliases && reload"
 alias gco='git checkout'
 alias gcm='git commit -v'
 
-#phpframe alias
-alias phpframe='php /Applications/MAMP/bin/php5.3/lib/php/data/PHPFrame/CLI_Tool/public/index.php'
-
 #ssh stickyworld
 alias sw='ssh stickyworld@stickyworld.com'
