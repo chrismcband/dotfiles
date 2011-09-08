@@ -33,4 +33,4 @@ BAKCYN='\e[46m'   # Cyan
 BAKWHT='\e[47m'   # White
 TXTRST='\e[0m'    # Text Reset
 
-PS1="\n\u:\w \$(vcprompt) \n$ "
+#PS1="\n\u:\w \$(vcprompt) \n$ "
