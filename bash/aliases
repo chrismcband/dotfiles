@@ -17,3 +17,7 @@ alias gcm='git commit -v'
 
 #ssh stickyworld
 alias sw='ssh stickyworld@stickyworld.com'
+#ssh devserver
+alias dev='ssh chris@devserver.stickyworld.com'
+#ssh slider
+alias slider='ssh slider@stickyworld.com'
