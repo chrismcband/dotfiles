@@ -34,3 +34,15 @@ Host tcas
   HostName tcas.treethorpe.com
   User ubuntu
   IdentityFile ~/.ssh/treethorpe.pem
+
+Host push
+  HostName push.stickyworld.com
+  User push
+  
+Host events
+  Hostname events.stickyworld.com
+  User events
+
+Host collector
+  Hostname collector.stickyworld.com
+  User collector
