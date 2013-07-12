@@ -46,3 +46,19 @@ Host events
 Host collector
   Hostname collector.stickyworld.com
   User collector
+
+Host reports
+  Hostname reports.stickyworld.com
+  User reports
+
+Host hetzner
+  Hostname push.stickyworld.com
+  User chris
+
+Host myhetzner
+  Hostname 178.63.55.14
+  User chris
+
+Host vm
+  Hostname 10.211.55.13
+  User chris

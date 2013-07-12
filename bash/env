@@ -1,7 +1,7 @@
 export EDITOR="mate -w"
+export PATH=/Applications/MAMP/Library/bin:/usr/local/sbin:$PATH
 export PATH=~/bin:/usr/local/share/npm/bin:/usr/local/bin:$PATH
-export PATH=/usr/local/mysql/bin:/Applications/MAMP/bin/php/php5.3.6/bin:$PATH
-export PATH=/Applications/MAMP/Library/bin:$PATH
+export PATH=/usr/local/mysql/bin:/Applications/MAMP/bin/php/php5.3.20/bin:$PATH
 export EC2_HOME=~/.ec2
 export EC2_URL=https://eu-west-1.ec2.amazonaws.com/
 export PATH=$PATH:/Users/chris/.ec2/bin
