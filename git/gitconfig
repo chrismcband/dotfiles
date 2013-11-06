@@ -1,0 +1,11 @@
+[user]
+	name = Christopher McDonald
+	email = chrismcband@gmail.com
+[color]
+	ui = auto
+	interactive = auto
+	branch = auto
+	diff = auto
+	status = auto
+[github]
+	user = chrismcband
