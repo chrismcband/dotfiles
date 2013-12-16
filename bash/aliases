@@ -24,3 +24,7 @@ alias swupall='ssh stickyworld@stickyworld.com update_code both'
 alias dev='ssh chris@devserver.stickyworld.com'
 #ssh slider
 alias slider='ssh slider@stickyworld.com'
+
+syspip(){
+   PIP_REQUIRE_VIRTUALENV="" pip "$@"
+}
