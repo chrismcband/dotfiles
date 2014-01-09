@@ -58,3 +58,7 @@ Host hetzner
 Host vm
   Hostname 192.168.49.128
   User chris
+
+Host vm12
+  Hostname 192.168.49.129
+  User chris
