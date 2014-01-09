@@ -59,6 +59,10 @@ Host vm
   Hostname 10.211.55.11
   User chris
 
+Host vm12
+  Hostname 192.168.49.129
+  User chris
+  
 Host pia-staging
   Hostname 95.85.23.71
   User pia
