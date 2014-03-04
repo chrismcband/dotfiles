@@ -9,3 +9,5 @@
 	status = auto
 [github]
 	user = chrismcband
+[core]
+	autocrlf = input
