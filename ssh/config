@@ -2,6 +2,10 @@ Host stickyworld
   HostName stickyworld.com
   User stickyworld
 
+Host sw
+  Hostname 78.46.87.216
+  User mark
+
 Host slider
   HostName stickyworld.com
   User slider
@@ -63,6 +67,14 @@ Host pia-staging
   Hostname 95.85.23.71
   User pia
   
+Host pia-holland
+  Hostname 95.85.23.71
+  User pia
+  
 Host stickyworldwww
   Hostname www.stickyworld.com
   User stickyworldwww
+
+Host sites
+  Hostname sites.stickyworld.com
+  User chris
