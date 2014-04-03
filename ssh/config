@@ -1,6 +1,10 @@
 Host stickyworld
   HostName stickyworld.com
   User stickyworld
+  
+Host stickyworlddev
+  HostName stickyworlddev.com
+  User stickyworlddev
 
 Host sw
   Hostname 78.46.87.216
