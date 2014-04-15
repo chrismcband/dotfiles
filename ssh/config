@@ -6,17 +6,25 @@ Host stickyworlddev
   HostName stickyworlddev.com
   User stickyworlddev
 
+Host stickyworldwww
+  Hostname www.stickyworld.com
+  User stickyworldwww
+
+Host sites
+  Hostname sites.stickyworld.com
+  User chris
+
 Host sw
   Hostname 78.46.87.216
-  User mark
+  User chris
+
+Host my
+  Hostname my.stickyworld.com
+  User chris
 
 Host slider
   HostName stickyworld.com
   User slider
-
-Host youcanplan
-  HostName youcanplan.co.uk
-  User youcanplan
 
 Host opencoder
   HostName opencoder.co.uk
@@ -25,18 +33,6 @@ Host opencoder
 Host devserver
   HostName devserver.stickyworld.com
   User chris
-
-Host cruisecontrol
-  HostName devserver.stickyworld.com
-  User cruisecontrol
-
-Host teamcity
-  HostName devserver.stickyworld.com
-  User teamcity
-
-Host youtrack
-  HostName devserver.stickyworld.com
-  User youtrack
 
 Host tcas
   HostName tcas.treethorpe.com
@@ -71,18 +67,3 @@ Host vm12
   Hostname 192.168.49.129
   User chris
   
-Host pia-staging
-  Hostname 95.85.23.71
-  User pia
-  
-Host pia-holland
-  Hostname 95.85.23.71
-  User pia
-  
-Host stickyworldwww
-  Hostname www.stickyworld.com
-  User stickyworldwww
-
-Host sites
-  Hostname sites.stickyworld.com
-  User chris
