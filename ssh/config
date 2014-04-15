@@ -26,6 +26,10 @@ Host slider
   HostName stickyworld.com
   User slider
 
+Host sliderzpanel
+  HostName zpanel.sliderstudio.co.uk
+  User root
+
 Host opencoder
   HostName opencoder.co.uk
   User chris
