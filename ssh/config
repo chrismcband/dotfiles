@@ -32,7 +32,7 @@ Host sliderzpanel
 
 Host opencoder
   HostName opencoder.co.uk
-  User chris
+  User root
 
 Host devserver
   HostName devserver.stickyworld.com
