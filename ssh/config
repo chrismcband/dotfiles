@@ -58,6 +58,10 @@ Host collector
 Host reports
   Hostname reports.stickyworld.com
   User reports
+  
+Host video
+  Hostname push.stickyworld.com
+  User video-service
 
 Host hetzner
   Hostname push.stickyworld.com
