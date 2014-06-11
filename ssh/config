@@ -60,8 +60,12 @@ Host reports
   User reports
   
 Host video
-  Hostname push.stickyworld.com
+  Hostname videos.stickyworld.com
   User video-service
+
+Host document
+  Hostname documents.stickyworld.com
+  User document-service
 
 Host hetzner
   Hostname push.stickyworld.com
