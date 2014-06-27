@@ -66,6 +66,10 @@ Host video
 Host document
   Hostname documents.stickyworld.com
   User document-service
+  
+Host panoramic
+  Hostname panoramics.stickyworld.com
+  User panoramic-service
 
 Host hetzner
   Hostname push.stickyworld.com
