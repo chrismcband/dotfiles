@@ -99,3 +99,5 @@ Host vm12
   Hostname 192.168.49.129
   User chris
   
+Host vm14
+  Hostname 10.211.55.15
