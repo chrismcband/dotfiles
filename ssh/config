@@ -75,8 +75,8 @@ Host image
   Hostname images.stickyworld.com
   User image-service
 
-Host hetzner
-  Hostname push.stickyworld.com
+Host hetzner1
+  Hostname 78.46.87.216
   User chris
   
 Host hetzner2
@@ -84,7 +84,7 @@ Host hetzner2
   User chris
 
 Host sw1
-  Hostname push.stickyworld.com
+  Hostname 78.46.87.216
   User chris
 
 Host sw2
