@@ -71,6 +71,10 @@ Host panoramic
   Hostname panoramics.stickyworld.com
   User panoramic-service
 
+Host image
+  Hostname images.stickyworld.com
+  User image-service
+
 Host hetzner
   Hostname push.stickyworld.com
   User chris
