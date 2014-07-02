@@ -78,6 +78,18 @@ Host image
 Host hetzner
   Hostname push.stickyworld.com
   User chris
+  
+Host hetzner2
+  Hostname 176.9.140.70
+  User chris
+
+Host sw1
+  Hostname push.stickyworld.com
+  User chris
+
+Host sw2
+  Hostname 176.9.140.70
+  User chris
 
 Host vm
   Hostname 10.211.55.11
