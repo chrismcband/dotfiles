@@ -74,6 +74,10 @@ Host panoramic
 Host image
   Hostname images.stickyworld.com
   User image-service
+  
+Host nagios
+  Hostname nagios.stickyworld.com
+  User chris
 
 Host hetzner1
   Hostname 78.46.87.216
