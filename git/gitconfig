@@ -11,3 +11,5 @@
 	user = chrismcband
 [core]
 	autocrlf = input
+[push]
+	default = matching
