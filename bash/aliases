@@ -25,6 +25,8 @@ alias dev='ssh chris@devserver.stickyworld.com'
 #ssh slider
 alias slider='ssh slider@stickyworld.com'
 
+alias jmeter='~/bin/apache-jmeter-2.11/bin/jmeter.sh'
+
 syspip(){
    PIP_REQUIRE_VIRTUALENV="" pip "$@"
 }
