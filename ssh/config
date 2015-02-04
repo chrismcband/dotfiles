@@ -42,6 +42,11 @@ Host tcas
   HostName tcas.treethorpe.com
   User ubuntu
   IdentityFile ~/.ssh/treethorpe.pem
+	
+Host tcas2
+  HostName tcas.stickyworlddev.com
+	User ubuntu
+	IdentityFile ~/.ssh/tcas-django.pem
 
 Host push
   HostName push.stickyworld.com
@@ -94,9 +99,13 @@ Host sw1
 Host sw2
   Hostname 176.9.140.70
   User chris
+	
+Host beta
+  Hostname beta.stickyworld.com
+	User chris
 
 Host vm
-  Hostname 10.211.55.11
+  Hostname 192.168.49.133
   User chris
 
 Host vm12
