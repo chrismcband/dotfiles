@@ -1,6 +1,7 @@
 Host stickyworld
   HostName stickyworld.com
   User stickyworld
+	IdentityFile ~/.ssh/slider
   
 Host stickyworlddev
   HostName stickyworlddev.com
@@ -25,6 +26,7 @@ Host my
 Host slider
   HostName stickyworld.com
   User slider
+	IdentityFile ~/.ssh/slider
 
 Host sliderzpanel
   HostName zpanel.sliderstudio.co.uk

@@ -16,14 +16,12 @@ alias gco='git checkout'
 alias gcm='git commit -v'
 
 #ssh stickyworld
-alias sw='ssh stickyworld@stickyworld.com'
+alias sw='ssh stickyworld'
 alias swup='ssh stickyworld@stickyworld.com update_code'
 alias swuppro='ssh stickyworld@stickyworld.com update_code production'
 alias swupall='ssh stickyworld@stickyworld.com update_code both'
-#ssh devserver
-alias dev='ssh chris@devserver.stickyworld.com'
 #ssh slider
-alias slider='ssh slider@stickyworld.com'
+alias slider='ssh slider'
 
 alias jmeter='~/bin/apache-jmeter-2.11/bin/jmeter.sh'
 
