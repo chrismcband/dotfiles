@@ -15,10 +15,6 @@ Host sites
   Hostname sites.stickyworld.com
   User chris
 
-Host sw
-  Hostname 78.46.87.216
-  User chris
-
 Host my
   Hostname my.stickyworld.com
   User chris
