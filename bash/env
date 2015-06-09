@@ -1,4 +1,4 @@
-export EDITOR="mvim"
+export EDITOR="mate -w"
 export PATH=/Applications/MAMP/Library/bin:/usr/local/sbin:$PATH
 export PATH=~/bin:/usr/local/share/npm/bin:/usr/local/bin:$PATH
 export PATH=/usr/local/mysql/bin:/Applications/MAMP/bin/php/php5.3.29/bin:$PATH
