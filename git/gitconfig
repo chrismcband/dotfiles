@@ -11,7 +11,8 @@
 	user = chrismcband
 [core]
 	autocrlf = input
- excludesfile = /opt/boxen/config/git/gitignore
+  excludesfile = /opt/boxen/config/git/gitignore
+	editor = mate
 [push]
 	default = matching
 

@@ -24,7 +24,7 @@ alias swupall='ssh stickyworld update_code both'
 alias slider='ssh slider'
 
 alias jmeter='~/bin/apache-jmeter-2.11/bin/jmeter.sh'
-
+alias ql='qlmanage -p "$@" >& /dev/null'
 alias fuck='$(thefuck $(fc -ln -1))'
 
 syspip(){
