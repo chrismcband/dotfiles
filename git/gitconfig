@@ -12,7 +12,7 @@
 [core]
 	autocrlf = input
   excludesfile = /opt/boxen/config/git/gitignore
-	editor = mate
+	editor = mate -w
 [push]
 	default = matching
 

@@ -52,3 +52,4 @@ source ~/.dotfiles/bashrc
 [ -f /opt/boxen/env.sh ] && source /opt/boxen/env.sh
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+source /Users/chris/.iterm2_shell_integration.zsh
