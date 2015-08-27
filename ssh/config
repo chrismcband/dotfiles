@@ -89,6 +89,10 @@ Host sw2
   Hostname 176.9.140.70
   User chris
 
+Host sw3
+  Hostname 5.9.88.98
+  User chris
+
 Host beta
   Hostname beta.stickyworld.com
 	User chris
