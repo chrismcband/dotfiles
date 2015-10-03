@@ -8,7 +8,6 @@ export PATH=$PATH:/Users/chris/.ec2/bin
 export EC2_PRIVATE_KEY=/Users/chris/.ec2/pk-MXC5ZMQLPN46GR3KHQRD5GMCNPB5ETOK.pem
 export EC2_CERT=/Users/chris/.ec2/cert-MXC5ZMQLPN46GR3KHQRD5GMCNPB5ETOK.pem
 export ANDROID_HOME=/usr/local/opt/android-sdk/
-export HOMEBREW_GITHUB_API_TOKEN=f34f3550dac3bee0af1451b38eb2a6874e52c88d
 # pip should only run if there is a virtualenv currently activated
 export PIP_REQUIRE_VIRTUALENV=true
 # cache pip-installed packages to avoid re-downloading
