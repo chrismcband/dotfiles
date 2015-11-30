@@ -49,7 +49,11 @@ export PATH=$PATH:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:~/bin
 
 source ~/.dotfiles/bashrc
 
-[ -f /opt/boxen/env.sh ] && source /opt/boxen/env.sh
+if [ -f ~/.dotfiles/localrc ]
+  then
+	  source ~/.dotfiles/localrc
+fi
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 source /Users/chris/.iterm2_shell_integration.zsh
+source $(brew --prefix nvm)/nvm.sh
