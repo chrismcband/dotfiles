@@ -11,7 +11,6 @@
 	user = chrismcband
 [core]
 	autocrlf = input
-  excludesfile = /opt/boxen/config/git/gitignore
 	editor = mate -w
 [push]
 	default = matching
@@ -19,8 +18,6 @@
 [hub]
 protocol = https
 
-[credential]
-helper = /opt/boxen/bin/boxen-git-credential
 [filter "hawser"]
 	clean = git hawser clean %f
 	smudge = git hawser smudge %f
