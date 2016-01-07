@@ -12,7 +12,7 @@
 [core]
 	autocrlf = input
   excludesfile = /opt/boxen/config/git/gitignore
-	editor = mate -w
+	editor = atom --wait
 [push]
 	default = matching
 

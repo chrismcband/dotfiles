@@ -27,3 +27,5 @@ if [[ -r /usr/local/bin/virtualenvwrapper.sh ]]; then
 else
     echo "WARNING: Can't find virtualenvwrapper.sh"
 fi
+export NVM_DIR=~/.nvm
+. $(brew --prefix nvm)/nvm.sh
