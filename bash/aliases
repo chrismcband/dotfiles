@@ -16,7 +16,7 @@ alias gco='git checkout'
 alias gcm='git commit -v'
 
 #ssh stickyworld
-alias sw='ssh stickyworld'
+alias sw='ssh -A -t nagios ssh -A -t my ssh -A sw3'
 alias swup='ssh stickyworld update_code'
 alias swuppro='ssh stickyworld update_code production'
 alias swupall='ssh stickyworld update_code both'
