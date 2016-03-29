@@ -82,12 +82,12 @@ Host hetzner2
   User chris
 
 Host sw1
-  Hostname 10.112.189.216
+  Hostname 5.10.103.171
   User chris
   IdentityFile ~/.ssh/stickyworld-chris
 
 Host sw2
-  Hostname 10.164.13.135
+  Hostname 159.122.244.202
   User chris
   IdentityFile ~/.ssh/stickyworld-chris
 
