@@ -95,6 +95,11 @@ Host sw3
   Hostname 5.9.88.98
   User chris
 
+Host backups
+  Hostname backups.stickyworld.com
+  User ubuntu
+  IdentityFile ~/.ssh/stickyworld-backups.pem
+
 Host beta
   Hostname beta.stickyworld.com
 	User chris
