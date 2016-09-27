@@ -27,7 +27,7 @@ alias jmeter='~/bin/apache-jmeter-2.11/bin/jmeter.sh'
 alias ql='qlmanage -p "$@" >& /dev/null'
 alias fuck='$(thefuck $(fc -ln -1))'
 
-alias miners='ssh -p 11598 chris@0.tcp.ngrok.io'
+alias miners='ssh -p 12217 chris@0.tcp.ngrok.io'
 
 syspip(){
    PIP_REQUIRE_VIRTUALENV="" pip "$@"

@@ -82,14 +82,14 @@ Host hetzner2
   User chris
 
 Host sw1
-  Hostname 10.112.189.216
-  User chris
-  IdentityFile ~/.ssh/stickyworld-chris
+  Hostname 52.18.81.141
+  User ubuntu
+  IdentityFile ~/.ssh/stickyworld-workers.pem
 
 Host sw2
-  Hostname 10.164.13.135
-  User chris
-  IdentityFile ~/.ssh/stickyworld-chris
+  Hostname 52.211.177.102
+  User ubuntu
+  IdentityFile ~/.ssh/stickyworld-workers.pem
 
 Host sw3
   Hostname 5.9.88.98
