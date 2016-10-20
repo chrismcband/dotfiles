@@ -117,3 +117,6 @@ Host vm12
 
 Host vm14
   Hostname 10.211.55.15
+
+Host myhop
+  ProxyCommand ssh nagios -W %h:%p
