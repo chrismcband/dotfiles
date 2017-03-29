@@ -82,12 +82,14 @@ Host hetzner2
   User chris
 
 Host sw1
-  Hostname 78.46.87.216
-  User chris
+  Hostname sw1.stickyworld.com
+  User ubuntu
+  IdentityFile ~/.ssh/stickyworld-workers.pem
 
 Host sw2
-  Hostname 176.9.140.70
-  User chris
+  Hostname sw2.stickyworld.com
+  User ubuntu
+  IdentityFile ~/.ssh/stickyworld-workers.pem
 
 Host sw3
   Hostname 5.9.88.98
@@ -120,3 +122,7 @@ Host vm14
 
 Host myhop
   ProxyCommand ssh nagios -W %h:%p
+
+Host cm
+  Hostname 5.9.81.195
+  User chris
