@@ -114,3 +114,7 @@ Host vm12
 
 Host vm14
   Hostname 10.211.55.15
+
+Host cm
+  Hostname 5.9.81.195
+  User chris
