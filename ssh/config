@@ -121,3 +121,7 @@ Host cm
 Host masternode1
   Hostname 45.76.136.123
   User chris
+
+Host masternode2
+  Hostname 45.76.139.252
+  User chris
