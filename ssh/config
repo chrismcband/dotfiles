@@ -125,3 +125,8 @@ Host masternode1
 Host masternode2
   Hostname 45.76.139.252
   User chris
+
+Host masternode3
+  Hostname 51.254.204.128
+  User chris
+
