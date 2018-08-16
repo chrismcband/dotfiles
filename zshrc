@@ -40,7 +40,7 @@ COMPLETION_WAITING_DOTS="true"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git git-flow django python)
+plugins=(git git-flow django python zsh-iterm-touchbar)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -49,6 +49,10 @@ export PATH=$PATH:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:~/bin
 
 source ~/.dotfiles/bashrc
 
-[ -f /opt/boxen/env.sh ] && source /opt/boxen/env.sh
+source ~/.iterm2_shell_integration.zsh
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+
+export NVM_DIR=~/.nvm
+source $(brew --prefix nvm)/nvm.sh
+export PATH="/usr/local/sbin:$PATH"

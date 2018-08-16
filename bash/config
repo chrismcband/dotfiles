@@ -34,3 +34,5 @@ BAKWHT='\e[47m'   # White
 TXTRST='\e[0m'    # Text Reset
 
 #PS1="\n\u:\w \$(vcprompt) \n$ "
+PS1='\s-\v\$\[$(~/.iterm2/it2setkeylabel set status \
+"$(test -d .git && (git rev-parse --abbrev-ref HEAD) || (echo -n "Not a repo"))")\] '
