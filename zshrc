@@ -56,3 +56,4 @@ PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 export NVM_DIR=~/.nvm
 source $(brew --prefix nvm)/nvm.sh
 export PATH="/usr/local/sbin:$PATH"
+export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
