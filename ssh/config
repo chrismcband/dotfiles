@@ -130,3 +130,7 @@ Host masternode3
   Hostname 51.254.204.128
   User chris
 
+Host masternode5
+  Hostname 51.68.214.249
+  User root
+
