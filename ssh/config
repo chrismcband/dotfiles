@@ -93,15 +93,9 @@ Host sw3
   Hostname 5.9.88.98
   User chris
 
-Host sw1-sl
-  Hostname sw1-sl.stickyworld.com
+Host sw4
+  Hostname 85.10.197.134
   User chris
-  IdentityFile ~/.ssh/stickyworld-chris
-
-Host sw2-sl
-  Hostname sw2-sl.stickyworld.com
-  User chris
-  IdentityFile ~/.ssh/stickyworld-chris
 
 Host beta
   Hostname beta.stickyworld.com
