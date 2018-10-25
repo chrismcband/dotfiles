@@ -138,3 +138,6 @@ Host masternode5
   Hostname 51.68.214.249
   User root
 
+Host masternode6
+  Hostname 95.179.197.157
+  User chris
