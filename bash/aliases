@@ -28,6 +28,7 @@ alias ql='qlmanage -p "$@" >& /dev/null'
 alias fuck='$(thefuck $(fc -ln -1))'
 
 alias django='docker-compose -f local.yml run --rm django python manage.py'
+alias dup='docker-compose -f local.yml up'
 
 syspip(){
    PIP_REQUIRE_VIRTUALENV="" pip "$@"
