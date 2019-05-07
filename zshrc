@@ -29,4 +29,4 @@ plugins=(git github macports)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-source $HOME/bin/dotfiles/bashrc
+source $HOME/.dotfiles/bashrc
