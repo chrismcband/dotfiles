@@ -30,3 +30,4 @@ source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
 source $HOME/.dotfiles/bashrc
+source $HOME/.dotfiles/env_secrets

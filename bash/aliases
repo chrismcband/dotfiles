@@ -24,3 +24,10 @@ alias swupall='ssh stickyworld@stickyworld.com update_code both'
 alias dev='ssh chris@devserver.stickyworld.com'
 #ssh slider
 alias slider='ssh slider@stickyworld.com'
+
+restart_nginx() {
+    sudo nginx -s stop
+    sudo nginx -c ~/nginx/devel/nginx/conf/nginx_local.conf -p ~/nginx/devel/nginx/conf/
+    # optionally if you installed PHP
+    # sudo /usr/local/sbin/php-fpm -D
+}
