@@ -51,7 +51,5 @@ source ~/.dotfiles/bashrc
 
 source ~/.iterm2_shell_integration.zsh
 
-#export NVM_DIR=~/.nvm
-#source $(brew --prefix nvm)/nvm.sh
 export PATH="/usr/local/sbin:$PATH"
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
