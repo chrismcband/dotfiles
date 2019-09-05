@@ -135,3 +135,23 @@ Host masternode5
 Host masternode6
   Hostname 95.179.202.11
   User chris
+
+Host git.mlan
+  User chrismcdonald
+  IdentityFile ~/.ssh/badoo
+  IdentitiesOnly yes
+
+Host shot1.mlan
+  User chrismcdonald
+  IdentityFile ~/.ssh/badoo
+  IdentitiesOnly yes
+
+Host www1.d3
+  User chrismcdonald
+  IdentityFile ~/.ssh/badoo
+  IdentitiesOnly yes
+
+Host www1.d4
+  User chrismcdonald
+  IdentityFile ~/.ssh/badoo
+  IdentitiesOnly yes
