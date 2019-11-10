@@ -22,7 +22,7 @@ export VIRTUALENVWRAPPER_VIRTUALENV_ARGS='--no-site-packages'
 export PIP_VIRTUALENV_BASE=$WORKON_HOME
 # makes pip detect an active virtualenv and install to it
 export PIP_RESPECT_VIRTUALENV=true
-export VIRTUALENVWRAPPER_PYTHON=/usr/local/Cellar/python/3.7.0/bin/python3   # make sure this is the python version you want to point to
+export VIRTUALENVWRAPPER_PYTHON=/usr/local/Cellar/python/3.7.5/bin/python3   # make sure this is the python version you want to point to
 export VIRTUALENVWRAPPER_VIRTUALENV=/usr/local/bin/virtualenv
 export VIRTUALENVWRAPPER_VIRTUALENV_ARGS='--no-site-packages'
 export LDFLAGS="-L/usr/local/opt/openssl/lib"
