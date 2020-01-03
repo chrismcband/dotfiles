@@ -25,9 +25,18 @@ alias dev='ssh chris@devserver.stickyworld.com'
 #ssh slider
 alias slider='ssh slider@stickyworld.com'
 
+#badoo aliases
+alias desktopweb-dev='cd ~/badoo/_deploy/desktopweb && yarn dev'
+alias mobileweb-devserver='cd ~/badoo/frontend/mobileweb/frontend && yarn dev-server'
+alias mobileweb-d3='cd ~/badoo/frontend/mobileweb/frontend && yarn dev'
+
 restart_nginx() {
     sudo nginx -s stop
     sudo nginx -c ~/nginx/devel/nginx/conf/nginx_local.conf -p ~/nginx/devel/nginx/conf/
     # optionally if you installed PHP
     # sudo /usr/local/sbin/php-fpm -D
+}
+
+stop_nginx() {
+    sudo nginx -s stop
 }
