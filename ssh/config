@@ -62,3 +62,23 @@ Host vm
 Host vm12
   Hostname 192.168.49.129
   User chris
+
+Host git.mlan
+  User chrismcdonald
+  IdentityFile ~/.ssh/badoo
+  IdentitiesOnly yes
+
+Host shot1.mlan
+  User chrismcdonald
+  IdentityFile ~/.ssh/badoo
+  IdentitiesOnly yes
+
+Host www1.d3
+  User chrismcdonald
+  IdentityFile ~/.ssh/badoo
+  IdentitiesOnly yes
+
+Host www1.d4
+  User chrismcdonald
+  IdentityFile ~/.ssh/badoo
+  IdentitiesOnly yes
