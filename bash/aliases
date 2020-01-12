@@ -40,3 +40,7 @@ restart_nginx() {
 stop_nginx() {
     sudo nginx -s stop
 }
+
+start_rsync() {
+    /Users/chris/go/bin/unrealsync --exclude .git /Users/chris/badoo www1.d3:badoo
+}
