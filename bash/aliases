@@ -26,7 +26,7 @@ alias dev='ssh chris@devserver.stickyworld.com'
 alias slider='ssh slider@stickyworld.com'
 
 #badoo aliases
-alias desktopweb-dev='cd ~/badoo/_deploy/desktopweb && yarn dev'
+alias desktopweb-dev='cd ~/badoo/frontend/desktopweb && yarn dev'
 alias mobileweb-devserver='cd ~/badoo/frontend/mobileweb/frontend && yarn dev-server'
 alias mobileweb-d3='cd ~/badoo/frontend/mobileweb/frontend && yarn dev'
 
