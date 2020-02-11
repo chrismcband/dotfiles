@@ -12,6 +12,3 @@ export HOMEBREW_GITHUB_API_TOKEN=f34f3550dac3bee0af1451b38eb2a6874e52c88d
 export MW_AUTO_INSTALL_DEPENDENCIES=true
 export MW_PRECOMMIT_AUTOFIX_JS=false
 export MW_PRECOMMIT_AUTOADD_JS=false
-export NVM_DIR="$HOME/.nvm"
-  [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
-  [ -s "/usr/local/opt/nvm/etc/bash_completion" ] && . "/usr/local/opt/nvm/etc/bash_completion"  # This loads nvm bash_completion
