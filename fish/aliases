@@ -15,7 +15,7 @@ alias selenoid-stop='~/bin/cm selenoid stop'
 alias selenoid-ui-start='~/bin/cm selenoid-ui start'
 alias selenoid-ui-stop='~/bin/cm selenoid-ui stop'
 alias stop_nginx='sudo nginx -s stop'
-alias syncd3d4='~/bin/unrealsync --exclude .git . d3:badoo d4:badoo'
+alias syncd3d4='unrealsync --exclude .git . d3:badoo d4:badoo'
 
 function restart_nginx
     sudo nginx -s stop
