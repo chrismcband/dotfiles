@@ -73,12 +73,8 @@ Host nagios
   Hostname nagios.stickyworld.com
   User chris
 
-Host hetzner1
-  Hostname 78.46.87.216
-  User chris
-
-Host hetzner2
-  Hostname 176.9.140.70
+Host contracting
+  Hostname 94.130.74.82
   User chris
 
 Host sw1
