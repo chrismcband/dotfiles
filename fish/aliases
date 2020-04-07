@@ -8,6 +8,11 @@ function gso
     git pull
 end
 
+function gmm
+    set branch (git branch --show-current)
+    git checkout master && git pull && git checkout $branch && git merge master && echo 'Merged master'
+end
+
 #badoo aliases
 alias desktopweb-dev='cd ~/badoo/frontend/desktopweb && yarn dev'
 alias mobileweb-devserver='cd ~/badoo_mobileweb/frontend/mobileweb/frontend && yarn dev-server'
