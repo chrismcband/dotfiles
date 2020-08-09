@@ -11,3 +11,9 @@
 	user = chrismcband
 [core]
 	autocrlf = input
+[pull]
+	rebase = false
+[push]
+	default = current
+[diff]
+	algorithm = patience
