@@ -19,7 +19,7 @@ alias mobileweb-devserver='cd ~/badoo_mobileweb/frontend/mobileweb/frontend && y
 alias mobileweb-d3='cd ~/badoo/frontend/mobileweb/frontend && yarn dev'
 
 function selenoid
-    ~/bin/selenoid -conf ~/bin/browsers.json -disable-docker -timeout 1h
+    ~/bin/selenoid -conf ~/bin/browsers.json -disable-docker -timeout 1h -limit 1000
 end
 alias remote_phpunit='~/badoo_mobileweb/UTests/Selenium/remote_phpunit'
 alias stop_nginx='sudo nginx -s stop'

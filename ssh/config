@@ -90,3 +90,10 @@ Host d4
   User chrismcdonald
   IdentityFile ~/.ssh/badoo
   IdentitiesOnly yes
+
+Host www1.d4
+  HostName www1.d4
+  User chrismcdonald
+  IdentityFile ~/.ssh/badoo
+  IdentitiesOnly yes
+
