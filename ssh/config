@@ -78,6 +78,8 @@ Host d3
   User chrismcdonald
   IdentityFile ~/.ssh/badoo
   IdentitiesOnly yes
+  AddKeysToAgent yes
+  ForwardAgent yes
 
 Host www1.d3
   HostName www1.d3
@@ -90,6 +92,8 @@ Host d4
   User chrismcdonald
   IdentityFile ~/.ssh/badoo
   IdentitiesOnly yes
+  AddKeysToAgent yes
+  ForwardAgent yes
 
 Host www1.d4
   HostName www1.d4
