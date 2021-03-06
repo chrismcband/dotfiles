@@ -38,3 +38,7 @@ end
 function start_rsync
     perl /Users/chrismcdonald/dklab_realsync/realsync /Users/chrismcdonald/badoo
 end
+
+function phpunit
+    docker-compose -f testlib/Selenium/docker-compose.yml --env-file testlib/Selenium/.env run phpunit $argv
+end
