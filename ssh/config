@@ -101,3 +101,11 @@ Host www1.d4
   IdentityFile ~/.ssh/badoo
   IdentitiesOnly yes
 
+Host d5
+  HostName www1.d5
+  User chrismcdonald
+  IdentityFile ~/.ssh/badoo
+  IdentitiesOnly yes
+  AddKeysToAgent yes
+  ForwardAgent yes
+
