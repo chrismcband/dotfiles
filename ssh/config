@@ -35,7 +35,7 @@ Host devserver
 Host tcas
   HostName tcas.treethorpe.com
   User ubuntu
-  IdentityFile ~/.ssh/tcas-django.pem
+  IdentityFile ~/.ssh/tcas.pem
 
 Host push
   HostName push.stickyworld.com
