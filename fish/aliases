@@ -13,6 +13,18 @@ function gmm
     git checkout master && git pull && git checkout $branch && git merge master && echo 'Merged master'
 end
 
+#exa aliases
+alias ll='exa --long --icons --git --all'
+alias llt='ll --tree --level=2'
+alias lls='ll --sort=size'
+
+#peco
+function fish_user_key_bindings
+  bind \cr 'peco_select_history (commandline -b)'
+end
+
+alias kp='ps ux | peco | awk \'{print $2}\' | xargs kill'
+
 #badoo aliases
 alias desktopweb-dev='cd ~/badoo/frontend/desktopweb && yarn dev'
 alias mobileweb-devserver='cd ~/badoo_mobileweb/frontend/mobileweb/frontend && yarn dev-server'
