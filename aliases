@@ -1,0 +1,57 @@
+#git aliases
+alias gco='git checkout'
+alias gcm='git commit -v'
+
+function gso
+    set branch (git branch --show-current)
+    git branch --set-upstream-to=origin/$branch $branch
+    git pull
+end
+
+function gmm
+    set branch (git branch --show-current)
+    git checkout master && git pull && git checkout $branch && git merge master && echo 'Merged master'
+end
+
+#exa aliases
+alias ll='exa --long --icons --git --all'
+alias llt='ll --tree --level=2'
+alias lls='ll --sort=size'
+
+#peco
+function fish_user_key_bindings
+  bind \cr 'peco_select_history (commandline -b)'
+end
+
+alias kp='ps ux | peco | awk \'{print $2}\' | xargs kill'
+
+#badoo aliases
+alias desktopweb-dev='cd ~/badoo/frontend/desktopweb && yarn dev'
+alias mobileweb-devserver='cd ~/badoo_mobileweb/frontend/mobileweb/frontend && yarn dev-server'
+alias mobileweb-d3='cd ~/badoo/frontend/mobileweb/frontend && yarn dev'
+
+function selenoid
+    ~/bin/selenoid -conf ~/bin/browsers.json -disable-docker -timeout 1h -limit 1000
+end
+alias remote_phpunit='~/badoo_mobileweb/UTests/Selenium/remote_phpunit'
+alias stop_nginx='sudo nginx -s stop'
+alias syncd3d4='cd ~/badoo && unrealsync --exclude .git . d3:badoo d4:badoo'
+
+# android adb
+alias android='~/Library/Android/sdk/platform-tools/adb'
+
+function restart_nginx
+    sudo nginx -s stop
+    sudo nginx -c ~/nginx/devel/nginx/conf/nginx_local.conf -p ~/nginx/devel/nginx/conf/
+    # optionally if you installed PHP
+    # sudo /usr/local/sbin/php-fpm -D
+end
+
+function start_rsync
+    perl /Users/chrismcdonald/dklab_realsync/realsync /Users/chrismcdonald/badoo
+end
+
+function phpunit
+    docker-compose -f testlib/Selenium/docker-compose.yml --env-file testlib/Selenium/.env run phpunit $argv
+end
+
