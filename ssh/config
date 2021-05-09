@@ -24,14 +24,6 @@ Host sliderzpanel
   HostName zpanel.sliderstudio.co.uk
   User root
 
-Host opencoder
-  HostName opencoder.co.uk
-  User chris
-
-Host devserver
-  HostName devserver.stickyworld.com
-  User chris
-
 Host tcas
   HostName tcas.treethorpe.com
   User ubuntu
