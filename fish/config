@@ -1,2 +1,2 @@
 fish_vi_key_bindings
-fish_add_path /usr/local/sbi
+fish_add_path /usr/local/sbin
