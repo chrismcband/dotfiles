@@ -109,3 +109,7 @@ Host d5
   AddKeysToAgent yes
   ForwardAgent yes
 
+Host github.bumble.dev
+    HostName github.bumble.dev
+    IdentityFile ~/.ssh/badoo
+    User chris.mcdonald@team.bumble.com
