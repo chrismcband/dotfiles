@@ -52,5 +52,12 @@ function start_rsync
 end
 
 function phpunit
-    docker-compose -f testlib/Selenium/docker-compose.yml --env-file testlib/Selenium/.env run phpunit $argv
+    docker-compose -f /Users/chrismcdonald/badoo/testlib/Selenium/docker-compose.yml --env-file /Users/chrismcdonald/badoo/testlib/Selenium/.env run --rm phpunit --printer '\TestLib\TestListener\SeleniumDocker' $argv
 end
+
+function updateNextGenDevel
+    docker build --platform linux/x86_64 --add-host cdn-internal:0.0.0.0 --add-host l-image:0.0.0.0 -f Dockerfile -t dockerio.badoo.com/frontend/chrismcdonald:$argv . && docker push dockerio.badoo.com/frontend/chrismcdonald:$argv
+end
+
+fish_add_path /opt/homebrew/sbin
+

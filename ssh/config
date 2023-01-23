@@ -1,115 +1,19 @@
-Host stickyworld
-  HostName stickyworld.com
-  User stickyworld
-
-Host slider
-  HostName stickyworld.com
-  User slider
-
-Host youcanplan
-  HostName youcanplan.co.uk
-  User youcanplan
-
-Host opencoder
-  HostName opencoder.co.uk
-  User chris
-
-Host devserver
-  HostName devserver.stickyworld.com
-  User chris
-
-Host cruisecontrol
-  HostName devserver.stickyworld.com
-  User cruisecontrol
-
-Host teamcity
-  HostName devserver.stickyworld.com
-  User teamcity
-
-Host youtrack
-  HostName devserver.stickyworld.com
-  User youtrack
-
-Host tcas
-  HostName tcas.treethorpe.com
-  User ubuntu
-  IdentityFile ~/.ssh/treethorpe.pem
-
-Host push
-  HostName push.stickyworld.com
-  User push
-  
-Host events
-  Hostname events.stickyworld.com
-  User events
-
-Host collector
-  Hostname collector.stickyworld.com
-  User collector
-
-Host reports
-  Hostname reports.stickyworld.com
-  User reports
-
-Host hetzner
-  Hostname push.stickyworld.com
-  User chris
-
-Host vm
-  Hostname 192.168.49.128
-  User chris
-
-Host vm12
-  Hostname 192.168.49.129
-  User chris
-
-Host git.mlan
-  User chrismcdonald
-  IdentityFile ~/.ssh/badoo
-  IdentitiesOnly yes
-
-Host shot1.mlan
-  User chrismcdonald
-  IdentityFile ~/.ssh/badoo
-  IdentitiesOnly yes
-
+Host *
+    ForwardAgent yes
+    ServerAliveInterval 300
+    ServerAliveCountMax 2
+ 
 Host d3
-  HostName www1.d3
-  User chrismcdonald
-  IdentityFile ~/.ssh/badoo
-  IdentitiesOnly yes
-  AddKeysToAgent yes
-  ForwardAgent yes
-
-Host www1.d3
-  HostName www1.d3
-  User chrismcdonald
-  IdentityFile ~/.ssh/badoo
-  IdentitiesOnly yes
-
+    HostName www1.d3
+    User chrismcdonald
+    IdentityFile ~/.ssh/id_rsa
+   
 Host d4
-  HostName www1.d4
-  User chrismcdonald
-  IdentityFile ~/.ssh/badoo
-  IdentitiesOnly yes
-  AddKeysToAgent yes
-  ForwardAgent yes
-
-Host www1.d4
-  HostName www1.d4
-  User chrismcdonald
-  IdentityFile ~/.ssh/badoo
-  IdentitiesOnly yes
-
+    HostName www1.d4
+    User chrismcdonald
+    IdentityFile ~/.ssh/id_rsa
+ 
 Host d5
-  HostName www1.d5
-  User chrismcdonald
-  IdentityFile ~/.ssh/badoo
-  IdentitiesOnly yes
-  AddKeysToAgent yes
-  ForwardAgent yes
-
-Host github.bumble.dev
-    HostName github.bumble.dev
-    IdentityFile ~/.ssh/badoo
-    User chris.mcdonald@team.bumble.com
+    HostName www1.d5
+    User chrismcdonald
+    IdentityFile ~/.ssh/id_rsa
