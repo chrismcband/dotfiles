@@ -18,6 +18,9 @@ alias ll='exa --long --icons --git --all'
 alias llt='ll --tree --level=2'
 alias lls='ll --sort=size'
 
+#neovim
+alias vim='nvim'
+
 #peco
 function fish_user_key_bindings
   bind \cr 'peco_select_history (commandline -b)'
@@ -31,7 +34,7 @@ alias mobileweb-devserver='cd ~/badoo_mobileweb/frontend/mobileweb/frontend && y
 alias mobileweb-d3='cd ~/badoo/frontend/mobileweb/frontend && yarn dev'
 
 function selenoid
-    ~/bin/selenoid -conf ~/bin/browsers.json -disable-docker -timeout 1h -limit 1000
+    ~/selenoid/selenoid -conf ~/selenoid/browsers.json -disable-docker -timeout 1h -limit 1000
 end
 alias remote_phpunit='~/badoo_mobileweb/UTests/Selenium/remote_phpunit'
 alias stop_nginx='sudo nginx -s stop'
