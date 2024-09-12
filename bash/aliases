@@ -5,11 +5,8 @@ alias tm='top -o vsize' # memory
 #ls
 alias ll='ls -lah'
 
-#reloading aliases
-alias reload="source ~/bin/dotfiles/bash/aliases"
-
-#add new alias and reload aliases
-alias ea="mate -w ~/bin/dotfiles/bash/aliases && reload"
+#neovim alias
+alias vim='nvim'
 
 #git aliases
 alias gco='git checkout'
@@ -25,16 +22,6 @@ function gso() {
     git branch --set-upstream-to=origin/$branch $branch
     git pull
 }
-
-#ssh stickyworld
-alias sw='ssh stickyworld@stickyworld.com'
-alias swup='ssh stickyworld@stickyworld.com update_code'
-alias swuppro='ssh stickyworld@stickyworld.com update_code production'
-alias swupall='ssh stickyworld@stickyworld.com update_code both'
-#ssh devserver
-alias dev='ssh chris@devserver.stickyworld.com'
-#ssh slider
-alias slider='ssh slider@stickyworld.com'
 
 #badoo aliases
 alias desktopweb-dev='cd ~/badoo/frontend/desktopweb && yarn dev'
