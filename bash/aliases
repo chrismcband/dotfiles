@@ -15,6 +15,17 @@ alias ea="mate -w ~/bin/dotfiles/bash/aliases && reload"
 alias gco='git checkout'
 alias gcm='git commit -v'
 
+function gmm() {
+    branch=$(git branch --show-current)
+    git checkout master && git pull && git checkout $branch && git merge master && echo 'Merged master'
+}
+
+function gso() {
+    branch=$(git branch --show-current)
+    git branch --set-upstream-to=origin/$branch $branch
+    git pull
+}
+
 #ssh stickyworld
 alias sw='ssh stickyworld@stickyworld.com'
 alias swup='ssh stickyworld@stickyworld.com update_code'
