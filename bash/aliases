@@ -47,10 +47,8 @@ selenoid() {
     /Users/chris.mcdonald/bin/selenoid/selenoid -conf /Users/chris.mcdonald/bin/selenoid/browsers.json -disable-docker -timeout 1h
 }
 
-alias mobileweb-devserver='cd ~/badoo/frontend/mobileweb/frontend && yarn dev-server'
-alias mobileweb-dev='cd ~/badoo/frontend/mobileweb/frontend && yarn dev'
-alias desktopweb-dev='cd ~/badoo/_deploy/desktopweb && yarn dev'
-alias selenoid-start='~/bin/cm selenoid start --vnc'
-alias selenoid-stop='~/bin/cm selenoid stop'
-alias selenoid-ui-start='~/bin/cm selenoid-ui start'
-alias selenoid-ui-stop='~/bin/cm selenoid-ui stop'
+function phpunit() {
+    docker-compose -f /Users/chris.mcdonald/badoo/testlib/Selenium/docker-compose.yml --env-file /Users/chris.mcdonald/badoo/testlib/Selenium/.env run --rm phpunit --printer '\TestLib\TestListener\SeleniumDocker' "$@"
+}
+export -f phpunit
+
