@@ -43,6 +43,10 @@ start_rsync() {
     perl /Users/chrismcdonald/dklab_realsync/realsync /Users/chrismcdonald/badoo
 }
 
+selenoid() {
+    /Users/chris.mcdonald/bin/selenoid/selenoid -conf /Users/chris.mcdonald/bin/selenoid/browsers.json -disable-docker -timeout 1h
+}
+
 alias mobileweb-devserver='cd ~/badoo/frontend/mobileweb/frontend && yarn dev-server'
 alias mobileweb-dev='cd ~/badoo/frontend/mobileweb/frontend && yarn dev'
 alias desktopweb-dev='cd ~/badoo/_deploy/desktopweb && yarn dev'
