@@ -47,8 +47,10 @@ selenoid() {
     /Users/chris.mcdonald/bin/selenoid/selenoid -conf /Users/chris.mcdonald/bin/selenoid/browsers.json -disable-docker -timeout 1h
 }
 
-function phpunit() {
+phpunit() {
     docker-compose -f /Users/chris.mcdonald/badoo/testlib/Selenium/docker-compose.yml --env-file /Users/chris.mcdonald/badoo/testlib/Selenium/.env run --rm phpunit --printer '\TestLib\TestListener\SeleniumDocker' "$@"
 }
-export -f phpunit
+
+# ollama open-webui
+alias open-webui='docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main'
 
