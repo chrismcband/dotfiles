@@ -5,22 +5,21 @@ alias tm='top -o vsize' # memory
 #ls
 alias ll='ls -lah'
 
-#reloading aliases
-alias reload="source ~/bin/dotfiles/bash/aliases"
-
-#add new alias and reload aliases
-alias ea="mate -w ~/bin/dotfiles/bash/aliases && reload"
+#neovim alias
+alias vim='nvim'
 
 #git aliases
 alias gco='git checkout'
 alias gcm='git commit -v'
 
-#ssh stickyworld
-alias sw='ssh stickyworld@stickyworld.com'
-alias swup='ssh stickyworld@stickyworld.com update_code'
-alias swuppro='ssh stickyworld@stickyworld.com update_code production'
-alias swupall='ssh stickyworld@stickyworld.com update_code both'
-#ssh devserver
-alias dev='ssh chris@devserver.stickyworld.com'
-#ssh slider
-alias slider='ssh slider@stickyworld.com'
+function gmm() {
+    branch=$(git branch --show-current)
+    git checkout master && git pull && git checkout $branch && git merge master && echo 'Merged master'
+}
+
+function gso() {
+    branch=$(git branch --show-current)
+    git branch --set-upstream-to=origin/$branch $branch
+    git pull
+}
+
