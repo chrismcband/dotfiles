@@ -23,26 +23,6 @@ function gso() {
     git pull
 }
 
-#badoo aliases
-alias desktopweb-dev='cd ~/badoo/frontend/desktopweb && yarn dev'
-alias mobileweb-devserver='cd ~/badoo/frontend/mobileweb/frontend && yarn dev-server'
-alias mobileweb-d3='cd ~/badoo/frontend/mobileweb/frontend && yarn dev'
-
-restart_nginx() {
-    sudo nginx -s stop
-    sudo nginx -c ~/nginx/devel/nginx/conf/nginx_local.conf -p ~/nginx/devel/nginx/conf/
-    # optionally if you installed PHP
-    # sudo /usr/local/sbin/php-fpm -D
-}
-
-stop_nginx() {
-    sudo nginx -s stop
-}
-
-start_rsync() {
-    perl /Users/chrismcdonald/dklab_realsync/realsync /Users/chrismcdonald/badoo
-}
-
 selenoid() {
     /Users/chris.mcdonald/bin/selenoid/selenoid -conf /Users/chris.mcdonald/bin/selenoid/browsers.json -disable-docker -timeout 1h
 }
@@ -52,5 +32,8 @@ phpunit() {
 }
 
 # ollama open-webui
-alias open-webui='docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main'
+alias open-webui='docker run -d -p 3001:8080 --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main || docker start open-webui'
+
+# fzf shell integration
+source <(fzf --zsh)
 
