@@ -3,6 +3,7 @@ alias tu='top -o cpu' 	# cpu
 alias tm='top -o vsize' # memory
 
 #ls
+alias ls='eza'
 alias ll='ls -lah'
 
 #neovim alias
