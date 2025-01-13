@@ -218,6 +218,7 @@ shift-down = ['volume set 0', 'mode main']
 1 = 'main'
 8 = 'built-in'
 9 = 'built-in'
+M = 'built-in'
 
 # callbacks
 [[on-window-detected]]
@@ -230,7 +231,7 @@ run = 'move-node-to-workspace B' # B for Browser
 
 [[on-window-detected]]
 if.app-id = 'com.apple.mail'
-run = 'move-node-to-workspace 8'
+run = 'move-node-to-workspace M'
 
 [[on-window-detected]]
 if.app-id = 'com.apple.finder'
