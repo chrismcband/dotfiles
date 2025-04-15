@@ -27,8 +27,8 @@ selenoid() {
     /Users/chris.mcdonald/bin/selenoid/selenoid -conf /Users/chris.mcdonald/bin/selenoid/browsers.json -disable-docker -timeout 1h
 }
 
-phpunit() {
-    docker-compose -f /Users/chris.mcdonald/badoo/testlib/Selenium/docker-compose.yml --env-file /Users/chris.mcdonald/badoo/testlib/Selenium/.env run --rm phpunit --printer '\TestLib\TestListener\SeleniumDocker' "$@"
+function phpunit() {
+    docker compose -f /Users/chris.mcdonald/badoo/testlib/Selenium/docker-compose.yml --env-file /Users/chris.mcdonald/badoo/testlib/Selenium/.env run --rm phpunit "$@"
 }
 
 # ollama open-webui

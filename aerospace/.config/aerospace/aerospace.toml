@@ -226,6 +226,10 @@ if.app-id = 'com.microsoft.VSCode'
 run = 'move-node-to-workspace C'  # C for Code
 
 [[on-window-detected]]
+if.app-id = 'dev.zed.Zed'
+run = 'move-node-to-workspace C'
+
+[[on-window-detected]]
 if.app-id = 'com.google.Chrome'
 run = 'move-node-to-workspace B' # B for Browser
 
@@ -239,6 +243,10 @@ run = 'layout floating'
 
 [[on-window-detected]]
 if.app-id = 'dev.warp.Warp-Stable'
+run = 'move-node-to-workspace C'
+
+[[on-window-detected]]
+if.app-id = 'com.mitchellh.ghostty'
 run = 'move-node-to-workspace C'
 
 [[on-window-detected]]
@@ -257,3 +265,6 @@ run = 'move-node-to-workspace N'
 if.app-id = 'com.tinyspeck.slackmacgap'
 run = 'move-node-to-workspace S'
 
+[[on-window-detected]]
+if.app-id = 'com.apple.Music'
+run = 'move-node-to-workspace A'
