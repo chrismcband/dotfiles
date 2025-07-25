@@ -6,9 +6,18 @@
 [user]
 	name = Chris McDonald
 	email = chris.mcdonald@team.bumble.com
+	signingkey = /Users/chris.mcdonald/.ssh/id_rsa.pub
 [push]
 	default = current
 [diff]
 	algorithm = patience
 [core]
 	editor = nvim
+[commit]
+	gpgSign = true
+[gpg]
+	format = ssh
+[gpg "ssh"]
+	allowedSignersFile = /Users/chris.mcdonald/.ssh/allowed_signers
+[tag]
+	gpgSign = true
