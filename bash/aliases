@@ -6,7 +6,9 @@ alias tm='top -o vsize' # memory
 alias ll='ls -lah'
 
 #neovim alias
-alias vim='nvim'
+alias vl='NVIM_APPNAME=nvim/lazyvim nvim'
+alias vk='NVIM_APPNAME=nvim/kickstart nvim'
+alias vim='NVIM_APPNAME=nvim/lazyvim nvim'
 
 #git aliases
 alias gco='git checkout'
