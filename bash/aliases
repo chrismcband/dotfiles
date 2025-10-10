@@ -6,9 +6,6 @@ alias tm='top -o vsize' # memory
 alias ls='eza'
 alias ll='ls -lahg'
 
-# zoxide
-alias cd='z'
-
 #neovim alias
 alias vl='NVIM_APPNAME=nvim/lazyvim nvim'
 alias vk='NVIM_APPNAME=nvim/kickstart nvim'
