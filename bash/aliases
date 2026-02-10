@@ -26,19 +26,6 @@ function gso() {
     git pull
 }
 
-selenoid() {
-    /Users/chris.mcdonald/bin/selenoid/selenoid -conf /Users/chris.mcdonald/bin/selenoid/browsers.json -disable-docker -timeout 1h
-}
-
-function phpunit() {
-    docker compose -f /Users/chris.mcdonald/badoo/testlib/Selenium/docker-compose.yml --env-file /Users/chris.mcdonald/badoo/testlib/Selenium/.env run --rm phpunit "$@"
-}
-
-# ollama open-webui
-alias open-webui='docker run -d -p 8000:8080 --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main || docker start open-webui'
-
-alias open-webui-update='docker run --rm --volume /var/run/docker.sock:/var/run/docker.sock containrrr/watchtower --run-once open-webui'
-
 # fzf shell integration
 source <(fzf --zsh)
 
