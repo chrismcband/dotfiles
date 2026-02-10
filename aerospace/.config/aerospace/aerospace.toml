@@ -289,3 +289,7 @@ run = 'move-node-to-workspace M'
 if.app-id = 'com.microsoft.AzureVpnMac'
 run = 'layout floating'
 
+[[on-window-detected]]
+if.app-id = 'com.microsoft.edgemac'
+run = 'move-node-to-workspace B'
+
