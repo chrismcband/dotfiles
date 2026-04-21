@@ -26,12 +26,6 @@ function gso() {
     git pull
 }
 
-# fzf shell integration
-source <(fzf --zsh)
-
-# zoxide shell integration
-eval "$(zoxide init zsh)"
-
 alias fabric='fabric-ai'
 
 # mai-agents shortcuts (Docker setup - recommended)
