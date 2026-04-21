@@ -293,3 +293,6 @@ run = 'layout floating'
 if.app-id = 'com.microsoft.edgemac'
 run = 'move-node-to-workspace B'
 
+[[on-window-detected]]
+if.app-id = 'com.electron.dockerdesktop'
+run = 'layout floating'

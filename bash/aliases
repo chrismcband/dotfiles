@@ -17,7 +17,7 @@ alias gcm='git commit -v'
 
 function gmm() {
     branch=$(git branch --show-current)
-    git checkout master && git pull && git checkout $branch && git merge master && echo 'Merged master'
+    git checkout main && git pull && git checkout $branch && git merge main && echo 'Merged main'
 }
 
 function gso() {
@@ -29,5 +29,17 @@ function gso() {
 # fzf shell integration
 source <(fzf --zsh)
 
+# zoxide shell integration
+eval "$(zoxide init zsh)"
+
 alias fabric='fabric-ai'
 
+# mai-agents shortcuts (Docker setup - recommended)
+alias mai-start='~/mai-agents/setup.sh'
+alias mai-stop='docker stop litellm'
+alias cl='~/mai-agents/claude.sh'
+alias cx='~/mai-agents/codex.sh'
+
+# No-Docker alternative (not recommended - see caveats above)
+# alias mai-start='~/mai-agents/setup_no_docker.sh'
+# alias mai-stop='kill $(cat ~/mai-agents/.run/litellm-$(hostname -s).pid)'
