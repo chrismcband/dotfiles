@@ -24,3 +24,7 @@ function gso() {
     git pull
 }
 
+# fzf shell integration
+source <(fzf --zsh)
+
+alias fabric='fabric-ai'

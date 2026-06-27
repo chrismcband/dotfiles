@@ -1,0 +1,4 @@
+theme = Catppuccin Mocha
+quit-after-last-window-closed = true
+cursor-click-to-move = true
+
